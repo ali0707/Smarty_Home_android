@@ -7,4 +7,13 @@
     <string name="EntertoHome">Continue</string>
     <string name="Name">Your Name</string>
 
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="sheet_dialog">Sheet Dialog</string>
+    <string name="progress_dialog">Progress Dialog</string>
+
+
+    <string name="agree_and_use">would you please Enter your name</string>
+    <string name="confirm">OK</string>
+    <string name="loading">Loading…</string>
+
 </resources>

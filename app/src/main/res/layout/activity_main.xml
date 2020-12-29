@@ -72,18 +72,18 @@
         android:layout_width="178dp"
         android:layout_height="56dp"
         android:layout_below="@+id/NameInput"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/btn"
         android:text="@string/EntertoHome"
         android:textColor="@color/white_gray"
         android:textSize="18dp"
         android:textStyle="normal"
+        android:layout_marginTop="10dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/NameInput"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="@+id/NameInput"
-        app:layout_constraintTop_toBottomOf="@+id/NameInput"
-        app:layout_constraintVertical_bias="0.824" />
+        app:layout_constraintTop_toBottomOf="@+id/NameInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
