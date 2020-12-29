@@ -1,0 +1,2 @@
+rootProject.name='Smarty Home'
+include ':app'

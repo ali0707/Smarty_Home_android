@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp">
+
+        <ImageView
+            android:id="@+id/imageid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/title"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/imageid"
+            android:layout_alignLeft="@+id/imageid"
+            android:layout_alignTop="@+id/imageid"
+            android:layout_alignEnd="@+id/imageid"
+            android:layout_alignRight="@+id/imageid"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="left"
+            android:text="Living Room"
+            android:textColor="@color/white_gray"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dec"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/title"
+            android:layout_alignLeft="@+id/title"
+            android:layout_alignEnd="@+id/title"
+            android:layout_alignRight="@+id/title"
+            android:layout_alignBottom="@+id/imageid"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="-118dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="6 Devices"
+            android:textColor="@color/white_gray">
+
+        </TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

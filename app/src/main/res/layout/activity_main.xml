@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_gray"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Smart"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Smart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:paddingVertical="2dp"
+        android:text="@string/Smarty"
+        android:textColor="@color/black_gray"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingVertical="2dp"
+        android:text="@string/welcome"
+        android:textColor="@color/gray"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Smart" />
+
+    <EditText
+        android:id="@+id/NameInput"
+        android:layout_width="265dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="@string/Name"
+        android:paddingVertical="2dp"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/welcome"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/welcome"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <Button
+        android:id="@+id/entername"
+        android:layout_width="178dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/NameInput"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/btn"
+        android:text="@string/EntertoHome"
+        android:textColor="@color/white_gray"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/NameInput"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/NameInput"
+        app:layout_constraintTop_toBottomOf="@+id/NameInput"
+        app:layout_constraintVertical_bias="0.824" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
